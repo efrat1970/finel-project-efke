@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-image:url("vanilla flower and pods.jpg");
+    background-size: cover;
+    height: 250px;
+}
+header h1 {
+    /* position: ; */
+    font-family: 'Emilys Candy';
+    color:#d0d0ad; 
+}
+/*needs to fixe the bar */
+nav {
+    position: relative;
+    top:160px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 4px;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Emilys Candy';
+    color: #d0d0ad;
+}
+
+nav ul li img {
+    background-color: #d0d0ad;
+}
+
+.container{
+    max-width: 400px;
+    margin: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.column{
+    flex-basis: 30%;
+    min-width: 120px;
+}
+
+.column img{
+    width: 100%;
+}
+article, section {
+    margin : 10px;
+    padding: 10px;
+    line-height: 1.2;
+}
+/* gange the bullets */
+.benefits ul {
+    list-style-type:square;
+    list-style-position: inside;
+}
+
+article h1 {
+    font-family: 'Emilys Candy';
+    color: #440e0ed0;
+}
+section h2 {
+    font-family: 'Emilys Candy';
+    color: #440e0ed0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
