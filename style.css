@@ -1,63 +1,68 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-header{
-    /* background-image:url("vanilla flower and pods.jpg"); */
-    /* background-size: cover; */
-    
-    position: fixed;
-    width: 100%;
-    z-index: 1;
-    top: 0;
-    left: 0;
+header {
+  /* background-image:url("vanilla flower and pods.jpg"); */
+  /* background-size: cover; */
+
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  top: 0;
+  left: 0;
 }
 header h1 {
-    font-family: 'Emilys Candy';
-    color:#d0d0ad;
-    position: absolute;
-    margin: 0;
-    left: 5%;
-    top: 4%; 
+  font-family: "Emilys Candy";
+  color: #d0d0ad;
+  position: absolute;
+  margin: 0;
+  left: 5%;
+  top: 4%;
 }
-header img{
-    width: 100%;
-    height: 40vh;
+header img {
+  width: 100%;
+  height: 45vh;
 }
 /*needs to fixe the bar */
 nav {
-    position: absolute;
-    top:35vh;
+  position: absolute;
+  top: 35vh;
+  text-align: right;
 }
 
 nav ul {
-    list-style-type: none;
-    white-space: nowrap;
-    max-width: 100%;
-    margin: 0 auto;
-    padding: 0;
+  list-style-type: none;
+  white-space: nowrap;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0;
 }
 
 nav ul li {
-    width: 20%;
-    display: inline-block;
-    padding: 4px;
+  width: 20%;
+  display: inline-block;
+  padding: 4px;
 }
 
 a {
-    text-decoration: none;
-    font-family: 'Emilys Candy';
-    color: #d0d0ad;
+  text-decoration: none;
+  font-family: "Emilys Candy";
+  color: #d0d0ad;
 }
 
 nav ul li img {
-    background-color: #d0d0ad;
+  background-color: #d0d0ad;
 }
 
-.products{
-   padding-top: 40vh;
+.products {
+  padding-top: 60vh;
+}
+
+control_button {
+  z-index: -1;
 }
 
 /* .column{
@@ -72,57 +77,43 @@ nav ul li img {
     min-width: 120px;
 } */
 
-.column img{
-    width: 100%;
+.column img {
+  width: 100%;
 }
-
 
 /* article.col{
     background-color: palegoldenrod !important;
 } */
-article h2{
-    font-family: 'Emilys Candy';
-    color: #440e0ed0;
+article h2 {
+  font-family: "Emilys Candy";
+  color: #440e0ed0;
 }
-article{
-    line-height: 1.6;
+article {
+  line-height: 1.6;
 }
-section h2{
-    font-family: 'Emilys Candy';
-    color: #440e0ed0;
+section h2 {
+  font-family: "Emilys Candy";
+  color: #440e0ed0;
 }
-section{
-    line-height: 1.6;
+section {
+  line-height: 1.6;
 }
-.benefits li{
-    list-style-type:square;
-    list-style-position: inside;
+.benefits li {
+  list-style-type: square;
+  list-style-position: inside;
 }
 
 /* footer */
-footer{
-    padding: 20px 10px;
-    text-align: center;
-    color: cornsilk;
-    background-color: #270303c0;
+footer {
+  padding: 20px 10px;
+  text-align: center;
+  color: cornsilk;
+  background-color: #270303c0;
 }
-footer li{
-    list-style-type: none;
+footer li {
+  list-style-type: none;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+form {
+  font-family: "Emilys Candy";
+  color: #d0d0ad;
+}
