@@ -5,7 +5,6 @@
 }
 
 header {
-  position: ;
   width: 100%;
   z-index: 1;
 }
@@ -34,6 +33,9 @@ a.navbar-brand {
 
 #homepage {
   background: #fcf8e3;
+  position: relative;
+  top: 100px;
+  
 }
 
 #homepage-text {
@@ -115,18 +117,29 @@ footer li a:hover {
 }
 
 .fab {
-  color: #fcf8e3;
+  color: #3c5ea8;
   font-size: 40px;
 }
 .fab:hover {
   color: aqua;
 }
 
+.formpage {
+  background-image: url(/images/vanillaorchid\ 1.jpg);
+}
+
 form {
   background-color: #270303c0;
   font-family: "Emilys Candy";
   color: #fcf8e3;
+  padding: 20px;
+  margin: 5vw;
+  
+  
+  
 }
 form header h1 {
   background-color: #fcf8e3;
+  color: #270303c0;
+  text-align: center;
 }
